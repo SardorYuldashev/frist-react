@@ -1,0 +1,44 @@
+#cards {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://comicvine.gamespot.com/a/uploads/original/11137/111372405/6805126-wakanda-themed.jpg) center /cover fixed;
+}
+
+.actorCard {
+  width: 200px;
+  height: 300px;
+  background: #2b2323;
+  border-radius: 25px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.actorCard-imgBox {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actorCard-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.actorCard-title {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.details-title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.details-text {
+  text-align: justify;
+}
